@@ -1,4 +1,4 @@
-#!/home/giacomo/python-portable/env/bin/python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -40,7 +40,7 @@ deactivate () {
     if [ ! "${1-}" = "nondestructive" ] ; then
     # Self destruct!
         unset -f deactivate
-    fi
+VIRTUAL_ENV="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}" )")" && pwd)"
 }
 
 # unset irrelevant variables
